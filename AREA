@@ -1,0 +1,15 @@
+dados1 = input().split()
+A = float(dados1[0])
+B = float(dados1[1])
+C = float(dados1[2])
+pi = 3.14159
+calA = (A * C) / 2
+calB = pi * C**2
+calC = (A + B) * C / 2
+calD = B**2
+calE = A * B
+print(f"TRIANGULO: {calA:.3f}")
+print(f"CIRCULO: {calB:.3f}")
+print(f"TRAPEZIO: {calC:.3f}")
+print(f"QUADRADO: {calD:.3f}")
+print(f"RETANGULO: {calE:.3f}")
