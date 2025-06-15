@@ -1,0 +1,7 @@
+dados1 = input().split()
+a = int(dados1[0])
+b = int(dados1[1])
+c = int(dados1[2])
+maiorAB = (a + b + abs(a - b)) // 2
+maior_valor = (maiorAB + c + abs(maiorAB - c)) // 2
+print(f"{maior_valor} eh o maior")
